@@ -20,5 +20,5 @@ function onReady() {
 }
  function handleClick() {
      console.log('button clicked');
-
+    $(this).addClass('blue')
  }
